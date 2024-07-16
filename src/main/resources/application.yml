@@ -1,0 +1,6 @@
+spring:
+  elasticsearch:
+    rest:
+      uris:
+      username:
+      password:

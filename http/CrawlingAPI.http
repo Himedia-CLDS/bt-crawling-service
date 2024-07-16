@@ -1,0 +1,16 @@
+### 상품 목록조회 (기본값은 가격순)
+GET http://localhost:8080/v1/api/products
+Content-Type: application/json
+Accept: application/json
+
+
+### 상품 상세조회
+GET http://localhost:8080/v1/api/products/1000000152
+Content-Type: application/json
+Accept: application/json
+
+
+
+### 삼풍 검색 (한국어,영어 지원)
+GET http://localhost:8080/v1/api/products/search?search=monkey
+###
